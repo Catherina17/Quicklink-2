@@ -1,0 +1,1042 @@
+.hero-block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero-block .Illustration {
+    position: absolute;
+    left: 410px;
+}
+
+.hero-block .hero-block-info {
+    display: flex;
+    gap: 15px;
+}
+
+.hero-block .hero-block-info .hero-info {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.hero-block .hero-block-info .hero-info .title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 69px;
+}
+
+.hero-block .hero-block-info .hero-info .underline {
+    position: absolute;
+    bottom: 220px;
+    left: 60px;
+}
+
+.hero-block .hero-block-info .hero-info .hero-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.hero-block .email {
+    display: flex;
+    gap: 24px;
+}
+
+.hero-block .email .input {
+    max-width: 317px;
+    width: 100%;
+    border: none;
+    border-radius: 18px;
+    padding: 18px 14px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.59px;
+}
+
+.hero-block .email .button-wrapper .button {
+    border: none;
+    border-radius: 18px;
+    background: rgba(245, 250, 147, 1);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 18px 14px;
+}
+
+.hero-block .email .button-wrapper .button .text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.features {
+    display: flex;
+    gap: 24px;
+}
+
+.features .feature {
+    border: 1px solid rgba(245, 250, 147, 1);
+    border-radius: 32px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+}
+
+.features .feature .picture.picture-2 {
+    text-align: center;
+}
+
+.features .feature .picture.picture-3 {
+    text-align: right;
+}
+
+.features .feature .content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.features .feature .content .title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.features .feature .content .description {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.info-container .upper-side {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 50px;
+   position: relative;
+}
+
+.info-container .upper-side .work-experience {
+    max-width: 530px;
+    width: 100%;
+    color: white;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: flex-end;
+}
+
+.info-container .upper-side .work-experience.main-border {
+    border: 1px solid #333333;
+    border-radius: 24px;
+}
+
+.info-container .upper-side .work-experience h3 {
+    color: rgba(170, 219, 107, 1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.info-container .upper-side .job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-container .upper-side .company {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.info-container .upper-side .company .period {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    color: rgba(118, 117, 123, 1);
+}
+
+.info-container .upper-side .company-link a {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    color: rgba(118, 117, 123, 1);
+}
+
+.info-container .upper-side .job .position {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 5px;
+}
+
+.info-container .upper-side .upper-right-side {
+    max-width: 220px;
+    width: 100%;
+    color: #000000;
+    background: rgba(255, 175, 176, 1);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info-container .upper-side .upper-right-side .project-photo {
+    text-align: center;
+}
+
+.info-container .upper-side .upper-right-side .project-photo img {
+    width: 170px;
+    height: 170px;
+}
+
+.info-container .upper-side .upper-right-side .project {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-container .upper-side .upper-right-side .project .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.info-container .upper-side .upper-right-side .project .project-info .project-name {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    margin: 0;
+}
+
+.info-container .upper-side .upper-right-side .project .project-info .project-description {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    margin: 0;
+}
+
+.info-container .upper-side .upper-right-side .project .show-project {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.info-container .upper-side .upper-right-side .project .show-project a {
+    max-width: 118px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 9px;
+    border-radius: 11px;
+    border: 1px solid #333333;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.info-container .upper-side .upper-middle-side {
+    max-width: 658px;
+    width: 100%;
+    background: rgba(20, 14, 23, 1);
+    border: 2px solid rgba(51, 51, 51, 1);
+    border-radius: 24px;
+    padding: 29px 36px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 74px;
+    left: 173px;
+}
+
+.info-container .upper-side .upper-middle-side .about-me {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.info-container .upper-side .upper-middle-side .about-me .photo .my-photo {
+    width: 182px;
+    height: 182px;
+}
+
+.info-container .upper-side .upper-middle-side .about-me .short-description {
+    max-width: 251px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-container .upper-side .upper-middle-side .about-me .short-description 
+.description-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-container .upper-side .upper-middle-side .about-me .short-description 
+.description-info .my-name {
+    color: rgba(255, 255, 255, 1);
+    font-size: 31px;
+    font-weight: 800;
+    line-height: 34px;
+} 
+
+.info-container .upper-side .upper-middle-side .about-me .short-description 
+.description-info .description {
+    color: rgba(255, 255, 255, 1);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+}
+
+.info-container .upper-side .upper-middle-side .about-me .short-description 
+.write-action {
+    display: flex;
+    align-items: center;
+    background:rgba(249, 214, 158, 1);
+    max-width: 105px;
+    width: 100%;
+    padding: 8px 6px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.info-container .upper-side .upper-middle-side .about-me .short-description 
+.write-action .text {
+    color: rgba(0, 0, 0, 1);
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 11px;
+    max-width: 78px;
+    width: 100%;
+    text-align: center;
+}
+
+.info-container .down-side {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 32px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-container .down-side .down-info {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.info-container .down-side .button {
+    display: flex;
+    justify-content: end;
+}
+
+.info-container .down-side .button a {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 18px;
+    padding: 18px 14px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.price-container h1 {
+    color: rgba(245, 250, 147, 1);
+    padding-left: 24px;
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.price-container .price-two {
+    display: flex;
+    gap: 24px;
+}
+
+.price-container .price-two .price-list {
+    width: 100%;
+    background: rgba(245, 250, 147, 1);
+    border-radius: 32px;
+    padding: 32px;
+    display: flex;
+}
+
+.price-container .price-two .price-list.second {
+    position: relative;
+}
+
+.price-container .price-two .price-list.second .premium {
+    background: black;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 14px;
+    position: absolute;
+    top: -25px;
+    right: 30px;
+}
+
+.price-container .price-two .price-list .content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.price-container .price-two .price-list .content .content-info {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.price-container .price-two .price-list .content .content-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.price-container .price-two .price-list .content .content-info .price .amound {
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.price-container .price-two .price-list .content .content-info .price .period {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.price-container .price-two .price-list .content .content-info .title {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.price-container .price-two .price-list .content .content-info ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.price-container .price-two .price-list .content .content-info li {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.price-container .price-two .price-list .content .content-info li::before {
+    content: url('../icons/Checkmark.svg');
+    margin-right: 10px;
+}
+
+.price-container .price-two .price-list .content .button {
+    max-width: 220px;
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 18px;
+    padding: 18px 14px;
+    text-align: center;
+}
+
+.price-container .price-two .price-list .content .button a {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.FAQ-container h3 {
+    color: rgba(245, 250, 147, 1);
+    padding-left: 24px;
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.FAQ-container .FAQ-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.FAQ-container .FAQ-lists details {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 32px;
+    padding: 24px;
+}
+
+.FAQ-container .FAQ-lists details > p {
+    margin-top: 32px;
+    color: rgba(118, 117, 123, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.FAQ-container .FAQ-lists summary {
+    display: block;
+}
+  
+.FAQ-container .FAQ-lists summary::-webkit-details-marker {
+    display: none;
+}
+
+.FAQ-container .FAQ-lists summary::after {
+    content: url('../icons/Plus.svg');
+}
+  
+.FAQ-container .FAQ-lists details[open] > summary::after {
+    content: url('../icons/Minus.svg');
+}
+
+
+.FAQ-container .FAQ-lists summary {
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-block {
+        padding: 0 20px;
+        gap: 64px;
+    }
+
+    .hero-block .hero-block-info .hero-info .title {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 54px;
+    }
+
+    .hero-block .hero-block-info {
+        max-width: 540px;
+    }
+
+    .hero-block .Illustration {
+        left: 280px;
+        top: 12px;
+    }
+
+    .hero-block .Illustration img {
+        width: 50px;
+    }
+
+    .hero-block .hero-block-info .hero-info .underline img {
+        width: 100px;
+        height: 20px;
+    }
+
+    .hero-block .email {
+        flex-direction: column;
+    }
+
+    .features {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .info-container {
+        padding: 0 20px;
+    }
+
+    .price-container {
+        padding: 0 20px;
+    }
+
+    .FAQ-container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .hero-block .hero-block-info .hero-photo {
+        opacity: 0.2;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .price-container .price-two {
+        gap: 40px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .hero-block .hero-block-info .hero-info .underline {
+        bottom: 355px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hero-block .hero-block-info .hero-photo {
+        position: absolute;
+        right: 0;
+        top: 0px;
+    }
+    .hero-block .hero-block-info .hero-photo img {
+        width: 257px;
+        height: 237px;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .info-container .upper-side {
+        padding: 0 17px;
+        gap: 20px;
+    }
+
+    .info-container .upper-side .work-experience h3 {
+        font-size: 6.02px;
+        font-weight: 600;
+        line-height: 6.52px;
+    }
+
+    .info-container .upper-side .work-experience.main-border {
+        max-width: 182px;
+        padding: 6px;
+        border-radius: 8px;
+        gap: 8px;
+    }
+
+    .info-container .upper-side .job-list {
+        gap: 7px;
+    }
+
+    .info-container .upper-side .company {
+        font-size: 6.02px;
+        font-weight: 500;
+        line-height: 7.02px;
+    }
+
+    .info-container .upper-side .company .period {
+        font-size: 4.51px;
+        font-weight: 500;
+        line-height: 6.52px;
+    }
+
+    .info-container .upper-side .company-link a {
+        font-size: 4.51px;
+        font-weight: 500;
+        line-height: 6.52px;
+    }
+
+    .info-container .upper-side .job .position {
+        font-size: 4.51px;
+        font-weight: 500;
+        line-height: 6.52px;
+        margin-top: 2px;
+    }
+
+    .info-container .upper-side .upper-right-side {
+        max-width: 77px;
+        padding: 7px;
+        gap: 3px;
+        border-radius: 7px;
+    }
+
+    .info-container .upper-side .upper-right-side .project-photo img {
+        width: 57px;
+        height: 57px;
+    }
+
+    .info-container .upper-side .upper-right-side .project {
+        gap: 5px;
+    }
+
+    .info-container .upper-side .upper-right-side .project .project-info {
+        gap: 2px;
+    }
+
+    .info-container .upper-side .upper-right-side .project .project-info .project-name {
+        font-size: 9.22px;
+        font-weight: 700;
+        line-height: 11.85px;
+    }
+
+    .info-container .upper-side .upper-right-side .project .project-info .project-description {
+        font-size: 3.95px;
+        font-weight: 500;
+        line-height: 5.71px;
+    }
+
+    .info-container .upper-side .upper-right-side .project .show-project a {
+        font-size: 3.95px;
+        font-weight: 600;
+        line-height: 5.4px;
+        width: 39px;
+        padding: 4px 3px;
+        gap: 1px;
+        border-radius: 4px;
+    }
+
+    .info-container .upper-side .upper-right-side .project .show-project img {
+        width: 4px;
+        height: 3px;
+    }
+
+    .info-container .upper-side .upper-middle-side {
+        max-width: 220px;
+        top: 24px;
+        left: 62px;
+        padding: 10px 12px;
+        gap: 12px;
+        border-radius: 7px;
+        border: 0.67px solid rgba(51, 51, 51, 1);
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me {
+        gap: 20px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .photo {
+        height: 61px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .photo .my-photo {
+        width: 61px;
+        height: 61px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description {
+        gap: 10px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .description-info {
+        gap: 3px;
+        max-width: 84px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .description-info .my-name {
+        font-size: 10.4px;
+        font-weight: 800;
+        line-height: 11.44px;
+    } 
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .description-info .description {
+        font-size: 3.67px;
+        font-weight: 500;
+        line-height: 4.28px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .write-action {
+        max-width: 35px;
+        padding: 3px 2px;
+        gap: 1px;
+        border-radius: 3px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .write-action .text {
+        font-size: 2.75px;
+        font-weight: 600;
+        line-height: 3.76px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .write-action img {
+        width: 4px;
+        height: 4px;
+    }
+
+    .info-container .down-side {
+        padding: 24px;
+        gap: 32px;
+        border-radius: 32px;
+    }
+}
+
+@media screen and (max-width: 458px) {
+    .hero-block .hero-block-info .hero-info .underline {
+    bottom: 380px;
+    left: 20px;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 900px) {
+    .info-container .upper-side .upper-middle-side {
+        left: 195px;
+    }
+}
+
+@media (min-width: 725px) and (max-width: 1024px) {
+    .price-container .price-two {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+    .hero-block .hero-block-info .hero-info .title {
+        font-size: 68px;
+        font-weight: 800;
+        line-height: 74.8px;
+    }
+
+    .hero-block .Illustration {
+        left: 428px;
+        top: 0;
+    }
+
+    .hero-block .Illustration img {
+        width: 114px;
+    }
+
+    .hero-block .hero-block-info .hero-info .underline {
+        left: 20px;
+        bottom: 325px;
+    }
+
+    .hero-block .hero-block-info .hero-info .underline img {
+        width: 218px;
+        height: 26px;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 565px) { 
+    .info-container .upper-side .upper-middle-side {
+        left: 15px;
+    }
+}
+
+@media (min-width: 536px) and (max-width: 700px) {
+    .hero-block .hero-block-info .hero-info .underline {
+        left: 20px;
+        bottom: 325px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+    .info-container .upper-side {
+        padding: 0 20px;
+    }
+
+    .info-container .upper-side .upper-middle-side {
+        max-width: 400px;
+        left: 37px;
+        padding: 15px 20px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 540px) { 
+    .info-container .upper-side .upper-middle-side {
+        left: 0px;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 740px) { 
+    .info-container .upper-side .upper-middle-side {
+        left: 115px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 1024px) {
+    .hero-block .hero-block-info .hero-photo {
+        position: absolute;
+        right: 0;
+        top: -30px;
+    }
+}
+
+@media (min-width: 439px) and (max-width: 500px) {
+    .info-container .upper-side .upper-middle-side {
+        left: 7px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 439px) and (max-width: 900px) {
+    .info-container .upper-side {
+        padding: 0 30px;
+        gap: 20px;
+    }
+
+    .info-container .upper-side .work-experience h3 {
+        font-size: 12.94px;
+        font-weight: 600;
+        line-height: 14.01px;
+    }
+
+    .info-container .upper-side .work-experience.main-border {
+        padding: 12px;
+        border-radius: 17px;
+        gap: 17px;
+        max-width: 392px;
+    }
+
+    .info-container .upper-side .job-list {
+        gap: 15px;
+    }
+
+    .info-container .upper-side .company {
+        font-size: 12.94px;
+        font-weight: 500;
+        line-height: 15.09px;
+    }
+
+    .info-container .upper-side .company .period {
+        font-size: 9.7px;
+        font-weight: 500;
+        line-height: 14.01px;
+    }
+
+    .info-container .upper-side .company-link a {
+        font-size: 9.7px;
+        font-weight: 500;
+        line-height: 14.01px;
+    }
+
+    .info-container .upper-side .job .position {
+        font-size: 9.7px;
+        font-weight: 500;
+        line-height: 14.01px;
+        margin-top: 4px;
+    }
+
+    .info-container .upper-side .upper-right-side {
+        max-width: 158px;
+        padding: 15px;
+        border-radius: 15px;
+        gap: 11px;
+    }
+
+    .info-container .upper-side .upper-right-side .project-photo img {
+        width: 128px;
+        height: 122px;
+    }
+
+    .info-container .upper-side .upper-right-side .project {
+        gap: 8px;
+    }
+
+    .info-container .upper-side .upper-right-side .project .project-info {
+        gap: 8px;
+    }
+
+    .info-container .upper-side .upper-right-side .project .project-info .project-name {
+        font-size: 19.81px;
+        font-weight: 700;
+        line-height: 25.47px;
+    }
+
+    .info-container .upper-side .upper-right-side .project .project-info .project-description {
+        font-size: 8.49px;
+        font-weight: 500;
+        line-height: 12.26px;
+    }
+
+    .info-container .upper-side .upper-right-side .project .show-project a {
+        font-size: 8.49px;
+        font-weight: 600;
+        line-height: 11.6px;
+        border-radius: 8px;
+        padding: 9px 7px;
+        width: 84px;
+    }
+
+    .info-container .upper-side .upper-right-side .project .show-project img {
+        width: 11px;
+        height: 11px;
+    }
+
+    .info-container .upper-side .upper-middle-side {
+        max-width: 473px;
+        top: 53px;
+        border-radius: 17px;
+        border: 1.44px solid rgba(51, 51, 51, 1);
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me {
+        gap: 40px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .photo .my-photo {
+        width: 131px;
+        height: 131px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description {
+        gap: 21px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .description-info {
+        gap: 7px;
+        max-width: 180px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .description-info .my-name {
+        font-size: 22.35px;
+        font-weight: 800;
+        line-height: 24.58px;
+    } 
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .description-info .description {
+        font-size: 7.89px;
+        font-weight: 500;
+        line-height: 9.2px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .write-action {
+        max-width: 76px;
+        padding: 6px 4px;
+        border-radius: 6px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .write-action .text {
+        font-size: 5.92px;
+        font-weight: 600;
+        line-height: 8.08px;
+    }
+
+    .info-container .upper-side .upper-middle-side .about-me .short-description .write-action img {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
