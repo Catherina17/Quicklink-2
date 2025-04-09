@@ -52,6 +52,7 @@
 
 .header .header-container .right-side {
     display: flex;
+    align-items: center;
 }
 
 .header .header-container .right-side .burger-menu .blackout {
@@ -72,7 +73,7 @@
 
 .header .header-container .right-side .login {
     background: rgba(235, 235, 235, 1);
-    padding: 0 16px;
+    padding: 8px 16px;
     border-radius: 16px;
     display: flex;
 }
